@@ -5,7 +5,7 @@
 //First, I will need some variables.
 //'values' will hold an array of various random numbers.
 //stateOfBars will keep track of what color we want a specific bar to be.
-//widthOfBars will control the width of each individual bar that is displayed.
+//widthOfBars will control the width of each individual bar that is displayed. Test.
 
 let values = [];
 let stateOfBars = [];
