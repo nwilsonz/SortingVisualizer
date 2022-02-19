@@ -43,7 +43,7 @@ function setup() {
 //The 'arr' argument represents an array to be passed to the function. The arguments 'l' and 'r' stand for left (first element in the array) and right (last element in the array). 
 //This function awaits a partition function which will return the index of the pivot after it is in its final position for that iteration. This allows the recursive calls to work on the subarrays to the left and right of the pivot independently.
 //This recursion will continue until the full array is sorted.
-//This QuickSort algorithm has an average time complexity of O(nlogn) - The worst case is O(n^2)
+//This QuickSort algorithm has an average time complexity of O(nlogn) - The worst case is O(n^2).
 
 async function quickSort(arr, l, r) {
   if (l >= r) return;
