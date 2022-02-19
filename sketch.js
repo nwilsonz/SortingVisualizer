@@ -12,7 +12,7 @@ let stateOfBars = [];
 let widthOfBars = 10;
 
 //Second, these are the buttons that the user will be able to click. 
-//One is for beginning the quicksort algorithm, the other is for resetting the simulation.
+//One is for beginning the QuickSort algorithm, the other is for resetting the simulation.
 
 let qsButton;
 let resetButton;
