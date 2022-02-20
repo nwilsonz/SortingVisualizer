@@ -14,6 +14,7 @@ let widthOfBars = 10;
 
 let qsButton;
 let bsButton;
+let ssButton;
 let resetButton;
 
 //This is a built in function of p5.js which sets up the environment. Here, I will initialize the array of values and give the buttons functionality.
@@ -36,7 +37,12 @@ function setup() {
   bsButton.mousePressed(function() {
     bubbleSort(values)
   });
-  
+
+  ssButton = createButton('Begin Selection Sort');
+  ssButton.position(500, 850);
+  ssButton.mousePressed(function() {
+    selectionSort(values)
+  });
 
   resetButton = createButton('Restart');
   resetButton.position(930, 850);
