@@ -4,6 +4,7 @@
 
 //This is the bubbleSort function which implements the algorithm.
 //Bubble Sort is a very simple brute-force algorithm which repeatedly swaps two adjacent elements if they are in the wrong order.
+//The method behind bubble sort is exchanging.
 //For example, the first two elements are compared. If the first element is larger than the second element, they need to swap positions.
 //This process continues until the array is fully sorted.
 //Note: This is optimized bubble sort. A flag called 'swapped' is used to determine whether or not the loops should break.

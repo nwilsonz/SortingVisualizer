@@ -3,6 +3,7 @@
 //The objective of this program is to visualize the QuickSort algorithm.
 
 //This is the QuickSort function. It will recursively call itself in order to sort the data by dividing and conquering the resulting subarrays. 
+//The method behind quicksort is partitioning.
 //Since it is asynchronous, the recursive calls will occur simultaneously.
 //The 'arr' argument represents an array to be passed to the function. The arguments 'l' and 'r' stand for left (first element in the array) and right (last element in the array). 
 //This function awaits a partition function which will return the index of the pivot after it is in its final position for that iteration. This allows the recursive calls to work on the subarrays to the left and right of the pivot independently.

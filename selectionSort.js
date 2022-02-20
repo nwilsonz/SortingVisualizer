@@ -2,6 +2,7 @@
 //The objective of this program is to visualize the selection sort algorithm.
 
 //This is the Selection Sort function, which implements the algorithm.
+//The method behind selection sort is selection.
 //This algorithm begins with the first element and proceeds to scan the array to find the smallest element in order to exchange it with the first element. This puts the smallest element in its final sorted position.
 //From there, we repeat the process by starting with the second element, and so on.
 //After n-1 passes, the array is sorted.

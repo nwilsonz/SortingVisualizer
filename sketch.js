@@ -10,11 +10,11 @@ let stateOfBars = [];
 let widthOfBars = 10;
 
 //Second, these are the buttons that the user will be able to click. 
-//One is for beginning the QuickSort algorithm, the other is for resetting the simulation.
 
-let qsButton;
-let bsButton;
-let ssButton;
+let qsButton;   //Quick Sort
+let bsButton;   //Bubble Sort
+let ssButton;   //Selection Sort
+let isButton;   //Insertion Sort
 let resetButton;
 
 //This is a built in function of p5.js which sets up the environment. Here, I will initialize the array of values and give the buttons functionality.
@@ -42,6 +42,12 @@ function setup() {
   ssButton.position(500, 850);
   ssButton.mousePressed(function() {
     selectionSort(values)
+  });
+
+  isButton = createButton('Begin Insertion Sort');
+  isButton.position(340, 850);
+  isButton.mousePressed(function() {
+    insertionSort(values)
   });
 
   resetButton = createButton('Restart');
