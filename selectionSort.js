@@ -10,6 +10,7 @@
 //Color scheme:
 //      Red: Represents the index of the value to be exchanged with the smaller number found (if there is one)
 //      White (to the left of the red bar): Represents values in their sorted position after being exchanged.
+//      Blue: Values still to be sorted (Does not include all, but most. Mainly for visual appeal.)
 
 async function selectionSort(arr) {
     for (let i = 0; i < arr.length - 1; i++) {
@@ -17,11 +18,13 @@ async function selectionSort(arr) {
         for (let j = i + 1; j < arr.length; j++) {
             if (arr[j] < arr[minIndex]) {
                 stateOfBars[i] = 0;
+                stateOfBars[j-1] = 1;
                 minIndex = j;
             }
         }
         await swap(arr, minIndex, i);
         stateOfBars[i] = -1;
+        
     }
 }
 
