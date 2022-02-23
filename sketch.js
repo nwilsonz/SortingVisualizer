@@ -50,6 +50,8 @@ function setup() {
     insertionSort(values)
   });
 
+  console.log(mergeSort(values));
+
   resetButton = createButton('Restart');
   resetButton.position(930, 850);
   resetButton.mousePressed(setup);

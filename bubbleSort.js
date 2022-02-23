@@ -14,7 +14,7 @@
 //      Red: Represents the value being compared to it's adjacent value to the right
 //      Blue: Unsorted values
 //      White: Sorted in its final place
-//Bubble Sort has a worst case time complexity of O(n^2), an average case of O(nlogn), and a best case of O(n)
+//Bubble Sort has a worst case time complexity of O(n^2), an average case of O(n^2), and a best case of O(n)
 async function bubbleSort(arr) {
     
     let end = arr.length - 1;

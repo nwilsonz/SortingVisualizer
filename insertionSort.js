@@ -5,11 +5,11 @@
 //Insertion sort is an intuitive algorithm. Conceptually, the array has a sorted part and an unsorted part.
 //  Values from the unsorted part are selected and compared to the values to its left and ultimately get inserted into their correct position.
 //The method behind insertion sort is insertion. It utilizes the decrease-by-one technique.
-//Insertion sort has a worst case time complexity of O(n^2) and a best/average case of O(nlogn).
 //Color Scheme:
 //      Red: Represents the current value being looked at
 //      Blue: Represents the unsorted part of the array.
 //      White: Represents the sorted part of the array (Note: The sorted values may change position if necessary to introduce a new unsorted element in)
+//Insertion sort has a worst case time complexity of O(n^2) and a best/average case of O(nlogn).
 
 async function insertionSort(arr) {
     for (let i = 1; i < arr.length; i++) {
